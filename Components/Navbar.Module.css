@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+}
+a {
+  text-decoration: none;
+  color: rgb(27, 26, 26);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 25px;
+}
+
+#insta {
+  background: -webkit-linear-gradient(rgb(196, 29, 51), rgb(97, 9, 238));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
